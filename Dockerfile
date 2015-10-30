@@ -1,5 +1,5 @@
 # Dockerfile to create a nodeclub image
-FROM nodejs
+FROM node
 MAINTAINER Carrotzpc
 # Add files to the image
 RUN mkdir -p /opt/nodejs
